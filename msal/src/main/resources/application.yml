@@ -1,0 +1,17 @@
+azure:
+  activedirectory:
+    tenant-id: TENANT_ID
+    client-id: CLIENT_ID
+    client-secret: CLIENT_SECRET
+    post-logout-redirect-uri: http://localhost:8090
+    authorization-clients:
+      graph:
+        scopes: https://graph.microsoft.com/User.Read
+
+app:
+  protect:
+    authenticated: /token_details, /call_graph
+
+server:
+  port: 8090
+

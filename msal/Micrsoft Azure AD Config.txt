@@ -1,0 +1,33 @@
+====================================================================================
+01) Setup Microsoft Azure Active Directory Project Enviroment
+====================================================================================
+	01) Create Microsoft Azure account.
+	02) Navigate to Azure Active Directory.
+	03) Click Add --> App Registration.
+	04) Fill the app Name and select 1st radion button (my-only Single tenant).
+	05) Click Register.
+	06) Select the Certificate & Secret and click New Client Secret.
+	07) Fill the Description & Expires period then Add.
+	08) Get the Copy of,
+		01) Client ID.
+		02) Client Secret (Value).
+		03) Tenant ID.
+====================================================================================
+02) Setup Redirect URI
+====================================================================================
+	01) Goto App Registration.
+	02) Choose the project.
+	03) Click Redirect URIs.
+	04) Click a Add a Platform.
+	05) Select Web and add Redirect URI as `http://localhost:8080/login/oauth2/code/`.
+	06) Click Configure.
+====================================================================================
+03) Setup AD users
+====================================================================================
+	01) Click Azure Active Directory.
+	02) Choose Users.
+	03) Click New User.
+	04) Choose Create User.
+	05) Create the pass word for user in Password section.
+	06) Add other section details if who need.
+	07) Hit the Create button for create user.

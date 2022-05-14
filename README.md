@@ -11,11 +11,11 @@ Build a Spring boot project with Microsoft Active Directory.
 
 01) Clone the project
 
-		git clone https://github.com/himash79/Spring-boot-with-Social-login-Github.git
+		git clone https://github.com/himash79/Microsoft-Active-Directory-Project.git
 
-02) Configure the Github 
+02) Configure the MS Azure 
 
-		Follow the steps of `Setup-github-enviroment.txt` file for configure the project enviroment.
+		Follow the steps of `Micrsoft Azure AD Config.txt` file for configure the project and cloud enviroment.
 
 03) Clean and build the project using maven
 
@@ -23,8 +23,6 @@ Build a Spring boot project with Microsoft Active Directory.
 		
 04) Open project using intelij / eclipse
 		
-## Expose Rest APIs
+## Initiate the project
 
-01) Authenticate user using related end-point APIs.
-
-01) localhost:8090/ - redirect to github signIn page.
+01) localhost:8090/ - Redirect to home page of project and perform sign in.
